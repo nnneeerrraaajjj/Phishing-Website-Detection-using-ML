@@ -13,10 +13,6 @@ from joblib import dump, load
 from tokenizers import ByteLevelBPETokenizer
 from langdetect import detect
 
-"""
-How to run:
-python3 test_model.py --tokenizer_folder tokenizer --threshold 0.5 --model_dir saved_models --website_to_test https://www.google.com
-"""
 
 # Parsing arguments
 import argparse
